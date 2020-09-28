@@ -4,11 +4,12 @@ import os,shutil #importing os helps us to deal with folders in our computer and
 #Creating a dictionary which indicates the folders to be created
 #You can add your own folder name and extentions below
 Folders={
-        'Audios':['.wav','.mp3','.3gp','.aa','.msv','wma'],
+        'Audios':['.wav','.mp3','.3gp','.aa','.msv','wma','.mpa'],
         'Videos':['.mp4','.mkv','.flv','.avi','.wmv','.m4v','.m4p'],
-        'Images':['.png','.jpg','.bmp','.gif','.jpeg','.bat'],
-        'Documents':['.doc','.xlsx','.xls','.pdf'],
-        'Compressed':['.zip','.rar']
+        'Images':['.png','.jpg','.bmp','.gif','.jpeg','.ico','.svg'],
+        'Documents':['.doc','.xlsx','.xls','.xlsm','.pdf','.docx','.ppt','.pptx','.pps','.wpd'],
+        'Compressed':['.zip','.rar','.7z','.z','.pkg','.rpm','.deb'],
+        'Executable':['.exe','.apk','.bat','.py','.bin','.msi','.bat']
         }
 
 #Creating function to check in which key the ext value is stored
