@@ -4,9 +4,9 @@ import os,shutil #importing os helps us to deal with folders in our computer and
 #Creating a dictionary which indicates the folders to be created
 #You can add your own folder name and extentions below
 Folders={
-        'Audios':['.wav','.mp3'],
-        'Videos':['.mp4'],
-        'Images':['.png','.jpg'],
+        'Audios':['.wav','.mp3','.3gp','.aa','.msv','wma'],
+        'Videos':['.mp4','.mkv','.flv','.avi','.wmv','.m4v','.m4p'],
+        'Images':['.png','.jpg','.bmp','.gif','.jpeg','.bat'],
         'Documents':['.doc','.xlsx','.xls','.pdf'],
         'Compressed':['.zip','.rar']
         }
